@@ -1,0 +1,21 @@
+Interview Questions on Stream APIs
+
+Day1 :
+1. Given a list of integers, filter the even numbers. Arrays.asList(1, 2, 3, 4, 5, 6);
+2. What Is a Stream? How Does It Differ From a Collection?
+3. What Is the Difference Between Intermediate and Terminal Operations?
+4. What Is Stream Pipelining in Java 8?
+5. What does "stream is lazy" mean?
+6. What is a functional interface, and how does it relate to streams and lambda expressions?
+
+Day2:
+1. Sort a List of Strings in Alphabetical Order
+2. Sort a List of Strings by Their Length
+
+Day3:
+1. Find the maximum number from a list of integers.
+2. Remove null values from a list using filter.
+3. Find the longest word in a sentence using Streams => String sentence = "Java Stream API is very powerful";
+4. Convert a List of Integers to Their Squares
+5. Find the Longest String in a List  =>  List.of("apple", "banana", "kiwi");
+6. Find the Shortest String in a List

@@ -1,0 +1,15 @@
+Q1.-What Is a Stream?
+|-> Stream is -> Sequence of objects -> that supports -> various methods -> that can be piplined
+               -> to produce -> the desired result
+
+
+|-> How Does It Differ From a Collection?
+               Collection             |              Stream
+         have data structure          |        don't have data structure
+         can store the data           |        can't store the data
+        can be modified (add, remove) |        have intermediate and terminal operations.
+                                      |        processes data from a source
+                                      |        Supports bulk operations like filtering, sorting, mapping and aggregation
+                                      |        allow functional style programming
+
+

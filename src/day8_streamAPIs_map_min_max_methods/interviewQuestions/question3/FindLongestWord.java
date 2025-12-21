@@ -23,12 +23,12 @@ public class FindLongestWord {
         // Step 2: Create the StreamAPI and find the longest
         Comparator<String> stringComparator = (str1, str2) -> Integer.compare(str1.length(), str2.length());
 
-//        List<String> longestWord =
-        wordList
+        String longestWord = wordList
                 .stream()
                 .filter(Objects::nonNull)
                 .max(Comparator.comparing(String::length))
-                .ifPresent(System.out :: println);
+                .orElse("Nothing!");
 
+        System.out.println(longestWord);
     }
 }
